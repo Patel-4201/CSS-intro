@@ -22,3 +22,15 @@
   .right {
     background-color: orange;
   }
+
+  @media screen and (max-width:430px) {
+    .right,.left{
+      height: 50%;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:430px) {
+    .left{
+     background-color: aqua;
+    }
+  }
